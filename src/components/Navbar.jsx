@@ -10,8 +10,8 @@ import { BsFillPersonLinesFill } from "react-icons/bs";
 import Logo from "../assets/logo.png";
 
 const Navbar = () => {
-  const [nav, setNav] = useState("false");
-  const handleChange = () => setNav(!nav);
+  const [nav, setNav] = useState(false);
+  const handleClick = () => setNav(!nav);
 
   return (
     <div className="fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#0a192f] text-gray-300 ">
@@ -27,7 +27,7 @@ const Navbar = () => {
         <li>Contact</li>
       </ul>
 
-      <div onClick={handleChange} className="md:hidden z-10">
+      <div onClick={handleClick} className="md:hidden z-10">
         {!nav ? <FaBars /> : <FaTimes />}
       </div>
 
