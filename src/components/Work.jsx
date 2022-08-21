@@ -2,6 +2,7 @@ import React from "react";
 import Nasa from "../assets/Nasa.png";
 import Weather from "../assets/weather.png";
 import Crypto from "../assets/crypto.png";
+import Employee from "../assets/employee.png";
 
 const Work = () => {
   return (
@@ -25,16 +26,11 @@ const Work = () => {
                 React Weather App
               </span>
               <div className="pt-8 text-center">
-                <a href="/">
-                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
-                    Demo
-                  </button>
-                </a>
-                <a href="/">
-                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
+                <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
+                  <a href="/https://github.com/mustafamohamed-web/weather-app">
                     Code
-                  </button>
-                </a>
+                  </a>
+                </button>
               </div>
             </div>
           </div>
@@ -48,12 +44,7 @@ const Work = () => {
                 NASA Image Search
               </span>
               <div className="pt-8 text-center">
-                <a href="/">
-                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
-                    Demo
-                  </button>
-                </a>
-                <a href="/">
+                <a href="https://github.com/mustafamohamed-web/NASA-Image-search">
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                     Code
                   </button>
@@ -72,12 +63,25 @@ const Work = () => {
                 React Crypto App
               </span>
               <div className="pt-8 text-center">
-                <a href="/">
+                <a href="https://github.com/mustafamohamed-web/crypto-frontend-backend">
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
-                    Demo
+                    Code
                   </button>
                 </a>
-                <a href="/">
+              </div>
+            </div>
+          </div>
+          <div
+            style={{ backgroundImage: `url(${Employee})` }}
+            className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
+          >
+            {/* Hover Effects */}
+            <div className="opacity-0 group-hover:opacity-100">
+              <span className="text-2xl font-bold text-white tracking-wider">
+                Employee database
+              </span>
+              <div className="pt-8 text-center">
+                <a href="https://github.com/mustafamohamed-web/crypto-frontend-backend">
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                     Code
                   </button>
