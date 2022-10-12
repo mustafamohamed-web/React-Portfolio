@@ -32,6 +32,9 @@ const Work = () => {
                     Code
                   </a>
                 </button>
+                <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
+                  <a href="https://mustafa-weatherapp.netlify.app/">Demo</a>
+                </button>
               </div>
             </div>
           </div>
@@ -48,6 +51,9 @@ const Work = () => {
                 <a href="https://github.com/mustafamohamed-web/NASA-Image-search">
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                     Code
+                  </button>
+                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
+                    <a href="https://nasasearch.netlify.app/">Demo</a>
                   </button>
                 </a>
               </div>
@@ -68,6 +74,9 @@ const Work = () => {
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                     Code
                   </button>
+                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
+                    <a href="https://mustafa-cryptoapp.netlify.app/">Demo</a>
+                  </button>
                 </a>
               </div>
             </div>
@@ -86,6 +95,9 @@ const Work = () => {
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                     Code
                   </button>
+                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
+                    <a href="">Demo</a>
+                  </button>
                 </a>
               </div>
             </div>
@@ -103,6 +115,9 @@ const Work = () => {
                 <a href="https://github.com/mustafamohamed-web/Movie-database">
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                     Code
+                  </button>
+                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
+                    <a href="https://mustafa-moviedatabse.netlify.app">Demo</a>
                   </button>
                 </a>
               </div>
